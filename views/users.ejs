@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+        }
+        table {
+            width: 20rem;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+      <center>
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>name</td>
+                <td>dob</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%= data[0].id %> </td>
+                <td><%= data[0].name %> </td>
+                <td><%= data[0].tgl_lahir %> </td>
+            </tr>
+        </tbody>
+    </table>
+      </center>
+  </body>
+</html>
